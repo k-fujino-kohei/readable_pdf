@@ -11,4 +11,4 @@ poetry run python3 readable_pdf.py <input.pdf> [options]
 ```
 
 **options**
-- no_cover: Tear off the first page to another page as a cover. (default: true)
+- no_cover: Tear off the first page to another page as a cover. (default: false)

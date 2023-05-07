@@ -51,7 +51,7 @@ def concat_pdf(infile):
 
 input_file = sys.argv[1]
 # 最初のページを表紙として別ページに切り出すかどうか
-no_cover = sys.argv[2] == "no_cover" if len(sys.argv) > 2 else True
+no_cover = sys.argv[2] == "no_cover" if len(sys.argv) > 2 else False
 use_cover = not no_cover
 
 if use_cover:
